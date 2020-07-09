@@ -2,6 +2,7 @@
 
 Repo to store notes from Intro to Conda workshop at SciPy 2020
 
+- Instructor: David Pugh
 - Tutorial/Intro site: https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/index.html
 
 ## Managing Environments
