@@ -95,12 +95,12 @@ conda config --set auto_activate_base false
 name: machine-learning-env
 
 dependencies:
-	- ipython
-	- matplotlib
-	- pandas
-	- pip
-	- python
-	- scikit-learn
+  - ipython
+  - matplotlib
+  - pandas
+  - pip
+  - python
+  - scikit-learn
 ```
 
 - instructor doesn't use a name, since he uses ```--prefix```
@@ -108,12 +108,12 @@ dependencies:
 name: null
 
 dependencies:
-	- ipython
-	- matplotlib
-	- pandas
-	- pip
-	- python
-	- scikit-learn
+  - ipython
+  - matplotlib
+  - pandas
+  - pip
+  - python
+  - scikit-learn
 ```
 
 - example that references pip requirements.txt and a pip standalone install
@@ -121,14 +121,14 @@ dependencies:
 name: null
 
 dependencies:
-	- ipython
-	- matplotlib
-	- pandas
-	- pip
-		- -r file:requirements.txt
-		- combo
-	- python
-	- scikit-learn
+  - ipython
+  - matplotlib
+  - pandas
+  - pip
+	- -r file:requirements.txt
+	- combo
+  - python
+  - scikit-learn
 ```
 
 - always version control yml file
