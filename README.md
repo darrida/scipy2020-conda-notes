@@ -125,8 +125,8 @@ dependencies:
   - matplotlib
   - pandas
   - pip
-	- -r file:requirements.txt
-	- combo
+    - -r file:requirements.txt
+    - combo
   - python
   - scikit-learn
 ```
